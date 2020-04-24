@@ -1962,7 +1962,7 @@ form[class*='bg-'] {
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0;
+  opacity: 1; /* changed value from 0 to 1 */
   position: fixed;
   right: 0;
   width: 24.4rem;
@@ -4707,7 +4707,7 @@ Slides (Counter/Arrows)
 ============================== */
 #counter,
 #navigation a {
-  color: #abc;
+  color: #000; /* changed from #abc */
 }
 
 #webslides:hover #navigation a:hover {
