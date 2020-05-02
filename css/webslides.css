@@ -4305,7 +4305,8 @@ li:hover .overlay {
 Gallery li+.overlay+image
 =========================================== */
 .gallery li {
-  background-color: rgba(0, 20, 80, 0.06);
+  /* background-color: rgba(0, 20, 80, 0.06); */
+  background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
     0 4px 8px rgba(0, 0, 0, 0.03);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.03);
